@@ -34,7 +34,7 @@
     },
     "max-classes-per-file": false,
     "max-line-length": [
-      false,
+      true,
       90
     ],
     "member-ordering": [
