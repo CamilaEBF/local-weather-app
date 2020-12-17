@@ -46,3 +46,7 @@ testem.log
 Thumbs.db
 .env
 node_modules
+
+
+#App
+/src/environments/*
