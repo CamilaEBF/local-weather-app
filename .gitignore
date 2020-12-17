@@ -49,4 +49,4 @@ node_modules
 
 
 #App
-/src/environment/*
+/src/environments/*
