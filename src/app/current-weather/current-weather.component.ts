@@ -8,7 +8,14 @@ import { WeatherService } from '../weather/weather.service';
   styleUrls: ['./current-weather.component.css']
 })
 export class CurrentWeatherComponent implements OnInit {
-  current: ICurrentWeather
+  current: ICurrentWeather = {
+    city:  'something',
+    country: 'something',
+    date: 1,
+    image: 'something',
+    temperature: 1,
+    description: 'something',
+  }
 
   constructor(private weatherService: WeatherService) {}
     
